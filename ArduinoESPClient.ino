@@ -114,17 +114,16 @@ void loop() {
       mostraMensagem("pass 4 chars");
       delay(1500);
       resetLCD();
+      charindex = 0;
       return;
     }
-    
-    
-    
+
     sendCommand("AT+CIPSEND=1,6");
     readResponse(1000);
     pass += '\r';
     pass += '\n';
     sendCommand(pass);
-     mostraMensagem("Verificando...");
+    mostraMensagem("Verificando...");
     delay(2000);
 
     if (ESP_Serial.available()) {
