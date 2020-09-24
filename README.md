@@ -9,3 +9,6 @@ No caso deste projeto o relé pode ser considerado uma fechadura, ficando aberta
 
 ![Circuito](Esquema%20de%20conexões.png)
 
+## Video explicativo
+
+https://youtu.be/qhYzZIIZJt8
