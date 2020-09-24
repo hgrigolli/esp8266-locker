@@ -5,3 +5,7 @@ Esse projeto tem como objetivo ativar um relé atraves de uma validação de sen
 
 No caso deste projeto o relé pode ser considerado uma fechadura, ficando aberta por 5 segundos após a validação correta da senha definida no servidor.
 
+## Esquema do Circuito
+
+![Circuito](Esquema%20de%20conexões.png)
+
