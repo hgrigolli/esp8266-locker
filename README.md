@@ -1,5 +1,5 @@
 # esp8266-locker
-ESP8266 Serial AT communication with Java server via TCP
+ESP8266 Serial AT comunicação com  servidor socket Java via TCP
 
 Esse projeto tem como objetivo ativar um relé atraves de uma validação de senha enviada via TCP pelo ESP8266 com validação no servidor Java. 
 
